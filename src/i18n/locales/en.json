@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "Home",
+    "cv_models": "CV Models",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Welcome to CV Portfolio",
+    "subtitle": "Choose your preferred CV model",
+    "select_model": "Select CV Model"
+  },
+  "cv": {
+    "personal_info": "Personal Information",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "education": "Education",
+    "experience": "Experience",
+    "skills": "Skills",
+    "languages": "Languages",
+    "projects": "Projects",
+    "certifications": "Certifications",
+    "interests": "Interests",
+    "references": "References",
+    "about": "About",
+    "about_description": "Passionate full-stack developer with 5+ years of experience building scalable web applications. Specialized in Vue.js, React, and Node.js with a keen eye for UI/UX design.",
+    "years_experience": "Years Experience",
+    "projects_completed": "Projects Completed",
+    "get_in_touch": "Get In Touch",
+    "lets_work_together": "Let's work together to bring your ideas to life",
+    "send_message": "Send Message",
+    "download_cv": "Download CV",
+    "contact_me": "Contact Me"
+  },
+  "models": {
+    "modern": "Modern CV",
+    "classic": "Classic CV",
+    "creative": "Creative CV",
+    "minimal": "Minimal CV",
+    "landing": "Landing Page CV",
+    "landing-fullcss": "Landing Page CV (Pure CSS)"
+  }
+}

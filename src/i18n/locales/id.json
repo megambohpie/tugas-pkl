@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "cv_models": "Model CV",
+    "language": "Bahasa"
+  },
+  "home": {
+    "title": "Selamat Datang di Portofolio CV",
+    "subtitle": "Pilih model CV yang Anda sukai",
+    "select_model": "Pilih Model CV"
+  },
+  "cv": {
+    "personal_info": "Informasi Pribadi",
+    "name": "Nama",
+    "email": "Email",
+    "phone": "Telepon",
+    "address": "Alamat",
+    "education": "Pendidikan",
+    "experience": "Pengalaman",
+    "skills": "Keahlian",
+    "languages": "Bahasa",
+    "projects": "Proyek",
+    "certifications": "Sertifikasi",
+    "interests": "Minat",
+    "references": "Referensi",
+    "about": "Tentang",
+    "about_description": "Full-stack developer yang bersemangat dengan pengalaman 5+ tahun dalam membangun aplikasi web yang skalabel. Spesialisasi dalam Vue.js, React, dan Node.js dengan mata yang tajam untuk desain UI/UX.",
+    "years_experience": "Tahun Pengalaman",
+    "projects_completed": "Proyek Selesai",
+    "get_in_touch": "Hubungi Saya",
+    "lets_work_together": "Mari bekerja sama untuk mewujudkan ide Anda",
+    "send_message": "Kirim Pesan",
+    "download_cv": "Unduh CV",
+    "contact_me": "Hubungi Saya"
+  },
+  "models": {
+    "modern": "CV Modern",
+    "classic": "CV Klasik",
+    "creative": "CV Kreatif",
+    "minimal": "CV Minimal",
+    "landing": "CV Landing Page",
+    "landing-fullcss": "CV Landing Page (Pure CSS)"
+  }
+}

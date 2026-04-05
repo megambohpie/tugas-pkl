@@ -1,0 +1,2 @@
+File ini untuk menghapus vite.config.ts
+Silakan hapus manual file vite.config.ts karena sudah ada vite.config.js
