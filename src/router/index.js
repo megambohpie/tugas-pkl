@@ -40,6 +40,26 @@ const router = createRouter({
       component: () => import('../views/cv/LandingCVFullCSS.vue'),
     },
     {
+      path: '/cv/professional',
+      name: 'cv-professional',
+      component: () => import('../views/cv/ProfessionalCV.vue'),
+    },
+    {
+      path: '/cv/creative2',
+      name: 'cv-creative2',
+      component: () => import('../views/cv/CreativeCV2.vue'),
+    },
+    {
+      path: '/cv/minimal2',
+      name: 'cv-minimal2',
+      component: () => import('../views/cv/MinimalCV2.vue'),
+    },
+    {
+      path: '/cv/tech',
+      name: 'cv-tech',
+      component: () => import('../views/cv/TechCVFixed.vue'),
+    },
+    {
       path: '/about',
       name: 'about',
       component: () => import('../views/AboutView.vue'),

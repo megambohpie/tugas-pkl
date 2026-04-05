@@ -23,6 +23,26 @@ const cvModels = [
     route: '/cv/landing-fullcss',
     description: 'Landing page with pure CSS (no Tailwind)',
   },
+  {
+    name: 'professional',
+    route: '/cv/professional',
+    description: 'Professional CV with countdown timer & age calculator',
+  },
+  {
+    name: 'creative2',
+    route: '/cv/creative2',
+    description: 'Creative CV with live experience counter',
+  },
+  {
+    name: 'minimal2',
+    route: '/cv/minimal2',
+    description: 'Minimal CV with simple design & dot ratings',
+  },
+  {
+    name: 'tech',
+    route: '/cv/tech',
+    description: 'Tech-themed CV with terminal interface',
+  },
 ]
 
 const getModelGradient = (modelName) => {
@@ -33,6 +53,10 @@ const getModelGradient = (modelName) => {
     minimal: 'from-gray-200 to-gray-400',
     landing: 'from-purple-600 to-pink-600',
     'landing-fullcss': 'from-green-400 to-blue-600',
+    professional: 'from-blue-600 to-cyan-600',
+    creative2: 'from-pink-500 to-orange-500',
+    minimal2: 'from-gray-700 to-gray-900',
+    tech: 'from-green-600 to-emerald-600',
   }
   return gradients[modelName] || 'from-blue-400 to-indigo-600'
 }
@@ -45,6 +69,10 @@ const getModelIcon = (modelName) => {
     minimal: '✨',
     landing: '🚀',
     'landing-fullcss': '🎯',
+    professional: '👔',
+    creative2: '🌟',
+    minimal2: '⚪',
+    tech: '💻',
   }
   return icons[modelName] || '📄'
 }

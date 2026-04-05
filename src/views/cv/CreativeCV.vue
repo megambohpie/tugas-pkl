@@ -230,3 +230,145 @@ const getProjectIcon = (index) => {
   return icons[index % icons.length]
 }
 </script>
+
+<style scoped>
+/* Responsive Design untuk CreativeCV */
+@media (max-width: 1024px) {
+  .creative-cv {
+    padding: 1rem;
+  }
+
+  .max-w-5xl {
+    max-width: 100%;
+  }
+
+  .rotate-1 {
+    transform: rotate(0deg);
+  }
+
+  .rotate-1:hover {
+    transform: rotate(0deg) scale(1.02);
+  }
+
+  .grid-cols-1.md\:grid-cols-2.lg\:grid-cols-3 {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .flex-col.md\:flex-row {
+    flex-direction: column;
+  }
+
+  .text-right {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .creative-cv {
+    padding: 0.5rem;
+  }
+
+  .bg-white\/90.backdrop-blur-sm.rounded-3xl.shadow-2xl.p-8 {
+    padding: 1.5rem;
+  }
+
+  .text-5xl {
+    font-size: 2rem;
+  }
+
+  .text-xl {
+    font-size: 1rem;
+  }
+
+  .w-32 {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .absolute.-top-2.-right-2.w-8.h-8 {
+    top: -0.5rem;
+    right: -0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .grid-cols-1.md\:grid-cols-2.lg\:grid-cols-3 {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+
+  .text-lg {
+    font-size: 1rem;
+  }
+
+  .mb-4 {
+    margin-bottom: 0.75rem;
+  }
+
+  .mb-6 {
+    margin-bottom: 1rem;
+  }
+
+  .space-y-6 > * + * {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .creative-cv {
+    padding: 0.25rem;
+  }
+
+  .bg-white\/90.backdrop-blur-sm.rounded-3xl.shadow-2xl.p-8 {
+    padding: 1rem;
+  }
+
+  .text-5xl {
+    font-size: 1.75rem;
+  }
+
+  .text-xl {
+    font-size: 0.875rem;
+  }
+
+  .w-32 {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .flex.items-center.gap-8 {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .text-right {
+    text-align: center;
+  }
+
+  .grid-cols-1.md\:grid-cols-2.lg\:grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .text-2xl {
+    font-size: 1.25rem;
+  }
+
+  .text-lg {
+    font-size: 0.875rem;
+  }
+
+  .mb-4 {
+    margin-bottom: 0.5rem;
+  }
+
+  .mb-6 {
+    margin-bottom: 0.75rem;
+  }
+}
+</style>

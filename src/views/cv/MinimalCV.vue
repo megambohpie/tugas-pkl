@@ -151,3 +151,168 @@ const goBack = () => {
   router.push('/')
 }
 </script>
+
+<style scoped>
+/* Responsive Design untuk MinimalCV */
+@media (max-width: 1024px) {
+  .minimal-cv {
+    padding: 1rem;
+  }
+
+  .max-w-3xl {
+    max-width: 100%;
+  }
+
+  .text-6xl {
+    font-size: 3rem;
+  }
+
+  .mb-16 {
+    margin-bottom: 2rem;
+  }
+
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+
+  .text-lg {
+    font-size: 1rem;
+  }
+
+  .mb-8 {
+    margin-bottom: 1rem;
+  }
+
+  .mb-4 {
+    margin-bottom: 0.75rem;
+  }
+
+  .w-24 {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .gap-8 {
+    gap: 1rem;
+  }
+
+  .flex.flex-wrap.gap-8 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-xs {
+    font-size: 0.625rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .minimal-cv {
+    padding: 0.5rem;
+  }
+
+  .text-6xl {
+    font-size: 2.5rem;
+  }
+
+  .mb-16 {
+    margin-bottom: 1.5rem;
+  }
+
+  .text-2xl {
+    font-size: 1.25rem;
+  }
+
+  .text-lg {
+    font-size: 0.875rem;
+  }
+
+  .mb-8 {
+    margin-bottom: 0.75rem;
+  }
+
+  .mb-4 {
+    margin-bottom: 0.5rem;
+  }
+
+  .w-24 {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .gap-8 {
+    gap: 0.75rem;
+  }
+
+  .flex.items-center.gap-8 {
+    flex-direction: column;
+  }
+
+  .text-xs {
+    font-size: 0.6rem;
+  }
+
+  .border.border-gray-300 {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .minimal-cv {
+    padding: 0.25rem;
+  }
+
+  .text-6xl {
+    font-size: 2rem;
+  }
+
+  .mb-16 {
+    margin-bottom: 1rem;
+  }
+
+  .text-2xl {
+    font-size: 1.125rem;
+  }
+
+  .text-lg {
+    font-size: 0.75rem;
+  }
+
+  .mb-8 {
+    margin-bottom: 0.5rem;
+  }
+
+  .mb-4 {
+    margin-bottom: 0.375rem;
+  }
+
+  .w-24 {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .gap-8 {
+    gap: 0.5rem;
+  }
+
+  .flex.items-center.gap-8 {
+    flex-direction: column;
+  }
+
+  .text-xs {
+    font-size: 0.6rem;
+  }
+
+  .flex.flex-wrap.gap-8 {
+    flex-direction: column;
+  }
+
+  .text-sm {
+    font-size: 0.7rem;
+  }
+
+  .mt-24 {
+    margin-top: 1rem;
+  }
+}
+</style>

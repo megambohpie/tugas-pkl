@@ -39,6 +39,10 @@
     "creative": "CV Kreatif",
     "minimal": "CV Minimal",
     "landing": "CV Landing Page",
-    "landing-fullcss": "CV Landing Page (Pure CSS)"
+    "landing-fullcss": "CV Landing Page (Pure CSS)",
+    "professional": "CV Professional",
+    "creative2": "CV Kreatif",
+    "minimal2": "CV Minimal",
+    "tech": "CV Teknologi"
   }
 }

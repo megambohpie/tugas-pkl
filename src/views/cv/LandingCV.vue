@@ -273,6 +273,135 @@ const getSkillWidth = (level) => {
 </script>
 
 <style scoped>
+/* Responsive Design untuk LandingCV */
+@media (max-width: 1024px) {
+  .max-w-6xl {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .fixed.top-4.left-4.right-4 {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+  }
+
+  .text-5xl {
+    font-size: 2.5rem;
+  }
+
+  .text-4xl {
+    font-size: 2rem;
+  }
+
+  .grid.md\\:grid-cols-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .landing-cv {
+    padding: 0;
+  }
+
+  .fixed.top-4.left-4.right-4 {
+    top: 0.5rem;
+    left: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .text-5xl {
+    font-size: 2rem;
+  }
+
+  .text-4xl {
+    font-size: 1.75rem;
+  }
+
+  .px-4 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .grid.md\\:grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .ml-24 {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .fixed.top-4.left-4.right-4 {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+
+  .text-5xl {
+    font-size: 1.75rem;
+  }
+
+  .text-4xl {
+    font-size: 1.5rem;
+  }
+
+  .px-4.py-2 {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .flex.justify-between {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .text-2xl {
+    font-size: 1.25rem;
+  }
+
+  .text-xl {
+    font-size: 1rem;
+  }
+
+  .mb-12 {
+    margin-bottom: 1.5rem;
+  }
+
+  .mb-8 {
+    margin-bottom: 1rem;
+  }
+
+  .px-8 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+</style>
+
+<style scoped>
 @keyframes pulse {
   0%,
   100% {

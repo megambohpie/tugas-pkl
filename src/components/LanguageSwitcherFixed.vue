@@ -37,3 +37,41 @@ onMounted(() => {
   currentFlag.value = languages[locale.value].flag
 })
 </script>
+
+<style scoped>
+.language-switcher {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
+.language-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.language-btn:hover {
+  background: rgba(255, 255, 255, 0.95);
+  transform: translateY(-1px);
+}
+
+.flag-icon {
+  font-size: 16px;
+}
+
+.lang-text {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 11px;
+}
+</style>

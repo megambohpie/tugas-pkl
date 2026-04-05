@@ -184,3 +184,105 @@ const getSkillWidth = (level) => {
   return `width: ${widths[level] || '50%'}`
 }
 </script>
+
+<style scoped>
+/* Responsive Design untuk ModernCV */
+@media (max-width: 1024px) {
+  .modern-cv {
+    padding: 1rem;
+  }
+
+  .max-w-4xl {
+    max-width: 100%;
+  }
+
+  .grid-cols-1.md\\:grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .flex.items-center.justify-between {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .text-right {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .modern-cv {
+    padding: 0.5rem;
+  }
+
+  .bg-gradient-to-r.from-blue-600.to-indigo-600 {
+    padding: 1.5rem;
+  }
+
+  .text-4xl {
+    font-size: 2rem;
+  }
+
+  .text-xl {
+    font-size: 1rem;
+  }
+
+  .p-8 {
+    padding: 1.5rem;
+  }
+
+  .grid-cols-1.md\\:grid-cols-2.lg\\:grid-cols-3 {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+
+  .text-lg {
+    font-size: 1rem;
+  }
+
+  .space-y-6 > * + * {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .modern-cv {
+    padding: 0.25rem;
+  }
+
+  .bg-gradient-to-r.from-blue-600.to-indigo-600 {
+    padding: 1rem;
+  }
+
+  .text-4xl {
+    font-size: 1.5rem;
+  }
+
+  .text-xl {
+    font-size: 0.875rem;
+  }
+
+  .p-8 {
+    padding: 1rem;
+  }
+
+  .w-24 {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .gap-6 {
+    gap: 0.75rem;
+  }
+
+  .flex.items-center.gap-6 {
+    flex-direction: column;
+  }
+}
+</style>
