@@ -43,6 +43,11 @@ const cvModels = [
     route: '/cv/tech',
     description: 'Tech-themed CV with terminal interface',
   },
+  {
+    name: 'blank',
+    route: '/cv/blank',
+    description: 'Blank CV template for learning and practice',
+  },
 ]
 
 const getModelGradient = (modelName) => {
@@ -57,6 +62,7 @@ const getModelGradient = (modelName) => {
     creative2: 'from-pink-500 to-orange-500',
     minimal2: 'from-gray-700 to-gray-900',
     tech: 'from-green-600 to-emerald-600',
+    blank: 'from-indigo-500 to-purple-600',
   }
   return gradients[modelName] || 'from-blue-400 to-indigo-600'
 }
@@ -73,6 +79,7 @@ const getModelIcon = (modelName) => {
     creative2: '🌟',
     minimal2: '⚪',
     tech: '💻',
+    blank: '📝',
   }
   return icons[modelName] || '📄'
 }

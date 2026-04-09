@@ -60,6 +60,11 @@ const router = createRouter({
       component: () => import('../views/cv/TechCVFixed.vue'),
     },
     {
+      path: '/cv/blank',
+      name: 'cv-blank',
+      component: () => import('../views/cv/BlankCVFixed.vue'),
+    },
+    {
       path: '/about',
       name: 'about',
       component: () => import('../views/AboutView.vue'),
