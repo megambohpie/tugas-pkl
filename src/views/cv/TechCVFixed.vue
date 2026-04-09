@@ -3,7 +3,7 @@
     <nav class="tech-nav">
       <button @click="goBack" class="tech-btn">
         <span class="btn-icon">←</span>
-        <span>HOME</span>
+        <span>HOME 288</span>
       </button>
       <LanguageSwitcher />
     </nav>
